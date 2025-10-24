@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("alaa adden alharj")>
+<Assembly: AssemblyTitle("alaaalharj12")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("Microsoft")>
-<Assembly: AssemblyProduct("alaa adden alharj")>
+<Assembly: AssemblyProduct("alaaalharj12")>
 <Assembly: AssemblyCopyright("Copyright © Microsoft 2025")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("03bb12ab-fd28-4e45-b59f-55c398758edd")>
+<Assembly: Guid("024d380b-554f-4ab0-8d44-2aa2fcaed5e8")>
 
 ' Version information for an assembly consists of the following four values:
 '

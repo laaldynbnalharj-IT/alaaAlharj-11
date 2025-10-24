@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
 
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-        Friend ReadOnly Property Settings() As Global.alaa_adden_alharj.My.MySettings
+        Friend ReadOnly Property Settings() As Global.alaaalharj12.My.MySettings
             Get
-                Return Global.alaa_adden_alharj.My.MySettings.Default
+                Return Global.alaaalharj12.My.MySettings.Default
             End Get
         End Property
     End Module
