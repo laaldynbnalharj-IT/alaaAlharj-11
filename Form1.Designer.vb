@@ -22,137 +22,119 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.ClockToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TimeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.NowToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MonthToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.YearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WeekdayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HourToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MinuteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SecondToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.MenuStrip1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'MenuStrip1
+        'Button1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClockToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(691, 24)
-        Me.MenuStrip1.TabIndex = 0
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.Button1.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button1.Location = New System.Drawing.Point(39, 31)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(130, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "حول المشروع"
+        Me.Button1.UseVisualStyleBackColor = False
         '
-        'ClockToolStripMenuItem
+        'Button2
         '
-        Me.ClockToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DataToolStripMenuItem, Me.TimeToolStripMenuItem})
-        Me.ClockToolStripMenuItem.Name = "ClockToolStripMenuItem"
-        Me.ClockToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
-        Me.ClockToolStripMenuItem.Text = "&Clock"
+        Me.Button2.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button2.Location = New System.Drawing.Point(39, 60)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(130, 23)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "خروج"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'DataToolStripMenuItem
+        'Button3
         '
-        Me.DataToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NowToolStripMenuItem, Me.MonthToolStripMenuItem, Me.YearToolStripMenuItem, Me.WeekdayToolStripMenuItem})
-        Me.DataToolStripMenuItem.Name = "DataToolStripMenuItem"
-        Me.DataToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.DataToolStripMenuItem.Text = "&Data"
+        Me.Button3.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button3.Location = New System.Drawing.Point(39, 89)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(130, 23)
+        Me.Button3.TabIndex = 2
+        Me.Button3.Text = "صندوق إدخال الألوان"
+        Me.Button3.UseVisualStyleBackColor = False
         '
-        'TimeToolStripMenuItem
+        'Button4
         '
-        Me.TimeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HourToolStripMenuItem, Me.MinuteToolStripMenuItem, Me.SecondToolStripMenuItem})
-        Me.TimeToolStripMenuItem.Name = "TimeToolStripMenuItem"
-        Me.TimeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.TimeToolStripMenuItem.Text = "&Time"
+        Me.Button4.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button4.Location = New System.Drawing.Point(39, 118)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(130, 23)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "الألوان العشوائية"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button5.Location = New System.Drawing.Point(39, 147)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(130, 23)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "الكتابة على عدة أسطر"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.Button5)
+        Me.GroupBox1.Controls.Add(Me.Button2)
+        Me.GroupBox1.Controls.Add(Me.Button4)
+        Me.GroupBox1.Controls.Add(Me.Button3)
+        Me.GroupBox1.Location = New System.Drawing.Point(284, 65)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(187, 244)
+        Me.GroupBox1.TabIndex = 5
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "رسالة الإدخال والإخراج"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(39, 177)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(130, 20)
+        Me.TextBox1.TabIndex = 6
         '
         'Label1
         '
-        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(91, 91)
+        Me.Label1.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Label1.Location = New System.Drawing.Point(36, 200)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(105, 35)
-        Me.Label1.TabIndex = 1
-        '
-        'NowToolStripMenuItem
-        '
-        Me.NowToolStripMenuItem.Name = "NowToolStripMenuItem"
-        Me.NowToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.NowToolStripMenuItem.Text = "Now"
-        '
-        'MonthToolStripMenuItem
-        '
-        Me.MonthToolStripMenuItem.Name = "MonthToolStripMenuItem"
-        Me.MonthToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.MonthToolStripMenuItem.Text = "Month"
-        '
-        'YearToolStripMenuItem
-        '
-        Me.YearToolStripMenuItem.Name = "YearToolStripMenuItem"
-        Me.YearToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.YearToolStripMenuItem.Text = "Year"
-        '
-        'WeekdayToolStripMenuItem
-        '
-        Me.WeekdayToolStripMenuItem.Name = "WeekdayToolStripMenuItem"
-        Me.WeekdayToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.WeekdayToolStripMenuItem.Text = "Weekday"
-        '
-        'HourToolStripMenuItem
-        '
-        Me.HourToolStripMenuItem.Name = "HourToolStripMenuItem"
-        Me.HourToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.HourToolStripMenuItem.Text = "Hour"
-        '
-        'MinuteToolStripMenuItem
-        '
-        Me.MinuteToolStripMenuItem.Name = "MinuteToolStripMenuItem"
-        Me.MinuteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.MinuteToolStripMenuItem.Text = "Minute"
-        '
-        'SecondToolStripMenuItem
-        '
-        Me.SecondToolStripMenuItem.Name = "SecondToolStripMenuItem"
-        Me.SecondToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SecondToolStripMenuItem.Text = "Second"
-        '
-        'Timer1
-        '
-        Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 1000
+        Me.Label1.Size = New System.Drawing.Size(133, 23)
+        Me.Label1.TabIndex = 5
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(691, 429)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.MainMenuStrip = Me.MenuStrip1
+        Me.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.ClientSize = New System.Drawing.Size(804, 387)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents ClockToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents DataToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TimeToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents NowToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents MonthToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents YearToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents WeekdayToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents HourToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents MinuteToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SecondToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Timer1 As Timer
 End Class

@@ -1,50 +1,39 @@
 ﻿Public Class Form1
-    Private Sub DataToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataToolStripMenuItem.Click
-        Label1.Text = DateString
-        Timer1.Enabled = False
+    Dim x, y, w, k As String
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
     End Sub
 
-    Private Sub TimeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TimeToolStripMenuItem.Click
-        Label1.Text = TimeString
-        Timer1.Enabled = True
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
     End Sub
 
-    Private Sub NowToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NowToolStripMenuItem.Click
-        Label1.Text = Now.ToString
-        Timer1.Enabled = False
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
     End Sub
 
-    Private Sub HourToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HourToolStripMenuItem.Click
-        Label1.Text = Hour(Now).ToString
-        Timer1.Enabled = False
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
     End Sub
 
-    Private Sub MinuteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MinuteToolStripMenuItem.Click
-        Label1.Text = Minute(Now).ToString
-        Timer1.Enabled = False
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 
-    Private Sub SecondToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SecondToolStripMenuItem.Click
-        Label1.Text = Second(Now).ToString
-        Timer1.Enabled = False
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        End
     End Sub
 
-    Private Sub MonthToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MonthToolStripMenuItem.Click
-        Label1.Text = Month(Now).ToString()
-        Timer1.Enabled = False
-    End Sub
-
-    Private Sub YearToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles YearToolStripMenuItem.Click
-        Label1.Text = Year(Now).ToString()
-        Timer1.Enabled = False
-    End Sub
-
-    Private Sub WeekdayToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WeekdayToolStripMenuItem.Click
-        Label1.Text = Weekday(Now).ToString()
-        Timer1.Enabled = False
-    End Sub
-
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Label1.Text = TimeString
+    Dim i As Integer
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        w = Chr(13) + Chr(10)
+        x = "جامعة شبوة" + w
+        x = x + "كلية تقنية المعلومات" + w
+        x = x + "IT عام" + w
+        x = x + "الاستاذ عبدالله سماء" + w
+        x = x + "للعام الدراسي 2025م " + w
+        y = "حول المشروع"
+        MsgBox(x, MsgBoxStyle.Information + MsgBoxStyle.MsgBoxRight, y)
     End Sub
 End Class
